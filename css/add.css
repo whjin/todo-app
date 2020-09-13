@@ -1,0 +1,23 @@
+.layui-form {
+  margin: 16px auto;
+  margin-bottom: 0;
+}
+
+input {
+  padding: 6px 14px;
+}
+
+.layui-input,
+.layui-textarea {
+  width: 548px;
+}
+
+.layui-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layui-btn {
+  margin: 16px 16px 0 16px;
+}

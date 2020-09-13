@@ -1,0 +1,26 @@
+.layui-table-tips-main,
+.layui-table-tips-c,
+.layui-table-grid-down {
+  display: none !important;
+}
+
+.layui-table-page {
+  text-align: center !important;
+}
+
+.layui-icon-export {
+  width: 360px;
+  height: 360px;
+}
+.delete-btn {
+  padding: 4px 16px;
+  background-color: #009688;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.layui-table th{
+  font-size: 16px;
+}

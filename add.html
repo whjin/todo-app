@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新增事项</title>
+    <link rel="stylesheet" href="layui/css/layui.css" />
+    <link rel="stylesheet" href="css/add.css" />
+  </head>
+  <body>
+    <form class="layui-form">
+      <div class="layui-form-item">
+        <label class="layui-form-label">执行日期</label>
+        <div class="layui-input-block">
+          <input
+            type="text"
+            id="executeDate"
+            class="layui-input"
+            name="executeDate"
+            autocomplete="off"
+            placeholder="请选择执行日期"
+          />
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">类别</label>
+        <div class="layui-input-block">
+          <input type="text" class="layui-input" name="itemType" autocomplete="off" placeholder="请填写类别" />
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">事项详情</label>
+        <div class="layui-input-block">
+          <textarea class="layui-textarea" name="itemDetail" placeholder="请填写事项详情"></textarea>
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">跟进情况</label>
+        <div class="layui-input-block">
+          <textarea class="layui-textarea" name="followUp" placeholder="请填写跟进情况"></textarea>
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">提醒时间</label>
+        <div class="layui-input-block">
+          <input
+            type="text"
+            id="remindTime"
+            class="layui-input"
+            name="remindTime"
+            autocomplete="off"
+            placeholder="请选择提醒时间"
+          />
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">完成情况</label>
+        <div class="layui-input-block">
+          <textarea class="layui-textarea" name="finishState" placeholder="请填写完成情况"></textarea>
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">完成确认人</label>
+        <div class="layui-input-block">
+          <input
+            type="text"
+            class="layui-input"
+            name="confirmPerson"
+            autocomplete="off"
+            placeholder="请填写完成确认人"
+          />
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <div class="layui-input-block layui-form-btn">
+          <button class="layui-btn" lay-submit lay-filter="checkVal">提交</button>
+          <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+      </div>
+    </form>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="layui/layui.js"></script>
+    <script src="js/tableSql.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
